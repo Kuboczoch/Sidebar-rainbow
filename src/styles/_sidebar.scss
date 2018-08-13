@@ -63,6 +63,9 @@ $rectangle-width: map-get(map-get($sidebar, rectangle), width);
       }
     }
   }
+  a {
+    text-decoration: none !important;
+  }
 }
 
 .sidebar-sticky {

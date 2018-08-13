@@ -1,4 +1,8 @@
-@import './normalize';
+@import './normalize.scss';
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
 
 @import './_variables';
 @import './_sidebar';
