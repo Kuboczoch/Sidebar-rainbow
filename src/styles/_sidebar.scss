@@ -47,7 +47,10 @@ $rectangle-width: map-get(map-get($sidebar, rectangle), width);
     .sidebar-icons {
       flex-direction: column;
       right: 0;
-      width: unset;
+      width: map-get($sidebar, width) * 0.2;
+      li {
+        margin: 2.5px auto;
+      }
     }
     &:hover {
       left: 0;
@@ -60,6 +63,9 @@ $rectangle-width: map-get(map-get($sidebar, rectangle), width);
         flex-direction: row;
         right: unset;
         width: 100%;
+        li {
+          margin: 0 5px 10px 5px;
+        }
       }
     }
   }
@@ -155,7 +161,7 @@ $rectangle-width: map-get(map-get($sidebar, rectangle), width);
 }
 
 .sidebar-icons {
-  transition: all 1s;
+  transition: all 0.2s;
   display: flex;
   list-style: none;
   padding: 0;
