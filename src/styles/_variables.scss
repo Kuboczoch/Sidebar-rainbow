@@ -1,0 +1,16 @@
+$sidebar: (
+        width: 20rem,
+        rectangle:(
+                width: 30px,
+                height: 40px
+        ),
+        colors:(
+                home: #5266bb,
+                games: #8e50bb,
+                about: #97bb51,
+        ),
+        icons:(
+                facebook: (color:#fff, background:#3B5998),
+                github: (color:#fff, background:#333),
+        )
+);

@@ -1,0 +1,8 @@
+main {
+  margin-left: map-get($sidebar, width);
+  padding-left: 40px;
+  @media screen and (max-width: 768px) {
+    margin-left: map-get($sidebar, width) * 0.2;
+    padding: 0 map-get(map-get($sidebar, rectangle), width);
+  }
+}
